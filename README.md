@@ -5,8 +5,11 @@ The program to generate and display weather forecast maps from the NCEP data
 ## License
 
 The *GFS-view-OS* is licensed under the **GPLv3** License
+
 See *met-5.2_bugfix/README* for the **UCAR** License
+
 The *NOAA NCEP Library for GRIB2 decoder* source code is provided **AS IS** for the use of NCEP data users
+
 *Frank Warmerdam* Shapelib is licensed under the **LGPL** License
 
 ## Usage
