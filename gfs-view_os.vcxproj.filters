@@ -1,0 +1,1026 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="./src/codetable_4_230.cpp" />
+    <ClCompile Include="./src/dbldateui.cpp" />
+    <ClCompile Include="./src/dlgdatetime.cpp" />
+    <ClCompile Include="./src/dlgiface.cpp" />
+    <ClCompile Include="./src/dlgstartup.cpp" />
+    <ClCompile Include="./src/fcstui.cpp" />
+    <ClCompile Include="./src/graphicsvw.cpp" />
+    <ClCompile Include="./src/cntrs.cpp" />
+    <ClCompile Include="./src/datefcst.cpp" />
+    <ClCompile Include="./src/gribini.cpp" />
+    <ClCompile Include="./src/infocntrs.cpp" />
+    <ClCompile Include="./src/level_table_192.cpp" />
+    <ClCompile Include="./src/ramppal.cpp" />
+    <ClCompile Include="./src/regui.cpp" />
+    <ClCompile Include="./src/img.cpp" />
+    <ClCompile Include="./src/infodata.cpp" />
+    <ClCompile Include="./src/main.cpp" />
+    <ClCompile Include="./src/mgrb2.cpp" />
+    <ClCompile Include="./src/ncl_pals.cpp" />
+    <ClCompile Include="./src/places.cpp" />
+    <ClCompile Include="./src/sets.cpp" />
+    <ClCompile Include="./src/shaperead.cpp" />
+    <ClCompile Include="./src/staticstr.cpp" />
+    <ClCompile Include="./src/tagtreeui.cpp" />
+    <ClCompile Include="./src/tvdelegate.cpp" />
+    <ClCompile Include="./src/winc.cpp" />
+    <ClCompile Include="./src/color_tables\amwg.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\amwg_blueyellowred.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_math\angles.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\BlueDarkOrange18.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\BlueDarkRed18.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\BlueGreen14.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\BrownBlue12.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\Cat12.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_util\check_endian.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_util\comma_string.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/g2clib-1.6.0\comunpack.c">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_log\concat_string.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_config\config.tab.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_config\config_file.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_config\config_scanner.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_util\conversions.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\cosam.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\cosam12.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\libcode\vx_data2d\data_class.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_util\data_plane.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_util\data_plane_util.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\libcode\vx_data2d_factory\data2d_factory.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\libcode\vx_data2d_factory\data2d_factory_utils.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\libcode\vx_data2d_grib\data2d_grib_utils.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\libcode\vx_data2d_grib2\data2d_grib2.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\libcode\vx_data2d\data2d_utils.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_cal\date_to_mjd.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/shapelib-1.3.0\dbfopen.c">
+      <Filter>shapelib-1.3.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/g2clib-1.6.0\dec_jpeg2000.c">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/g2clib-1.6.0\dec_png.c">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_config\dictionary.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_cal\doyhms_to_unix.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_util\file_exists.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_util\file_linecount.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_util\file_size.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_util\filename_suffix.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\libcode\vx_grid\find_grid_by_name.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_util\fix_float.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/g2clib-1.6.0\g2_free.c">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/g2clib-1.6.0\g2_getfld.c">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/g2clib-1.6.0\g2_info.c">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/g2clib-1.6.0\g2_miss.c">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/g2clib-1.6.0\g2_unpack1.c">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/g2clib-1.6.0\g2_unpack2.c">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/g2clib-1.6.0\g2_unpack3.c">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/g2clib-1.6.0\g2_unpack4.c">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/g2clib-1.6.0\g2_unpack5.c">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/g2clib-1.6.0\g2_unpack6.c">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/g2clib-1.6.0\g2_unpack7.c">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/g2clib-1.6.0\gbits.c">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\libcode\vx_data2d_grib\grib_classes.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\libcode\vx_data2d_grib\grib_utils.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/g2clib-1.6.0\drstemplates.c">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_config\grdfiletype_to_string.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\GreenMagenta16.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\hotcold_18lev.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\hotcolr_19lev.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\libcode\vx_grid\grid_base.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/g2clib-1.6.0\gridtemplates.c">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_log\indent.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_util\int_array.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_util\interp_mthd.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_util\interp_util.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\libcode\vx_data2d_factory\is_grib_file.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_util\is_number.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/g2clib-1.6.0\int_power.c">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/g2clib-1.6.0\jpcunpack.c">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\libcode\vx_grid\latlon_grid.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\libcode\vx_grid\lc_grid.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\libcode\vx_data2d\level_info.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\libcode\vx_data2d\leveltype_to_string.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\mch_default.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_cal\mdyhms_to_unix.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\libcode\vx_grid\merc_grid.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_cal\mjd_to_date.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_math\nint.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\nrl_sirkes.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\nrl_sirkes_nowhite.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\perc2_9lev.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\percent_11lev.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\posneg_1.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\posneg_2.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\prcp_1.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\prcp_2.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\prcp_3.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\precip_11lev.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\precip_diff_1lev.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\precip_diff_12lev.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\precip2_15lev.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\precip2_17lev.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\precip3_16lev.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\precip4_11lev.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\precip4_diff_19lev.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_util\num_array.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_math\ptile.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_math\pwl.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_log\string_array.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_util\string_fxns.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_util\substring.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\libcode\vx_data2d\table_lookup.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_util\temp_file.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_util\thresh_array.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_config\threshold.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_cal\time_array.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_cal\time_strings.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_util\two_to_one.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\basic\vx_cal\unix_to_mdyhms.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\libcode\vx_data2d\var_info.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\libcode\vx_data2d_grib\var_info_grib.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\libcode\vx_data2d_grib2\var_info_grib2.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/g2clib-1.6.0\pdstemplates.c">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/g2clib-1.6.0\pngunpack.c">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\radar.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\radar_1.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\rh_19lev.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/g2clib-1.6.0\specunpack.c">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\spread_15lev.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\StepSeq25.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\sunshine_9lev.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\sunshine_diff_12lev.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\temp_19lev.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\temp_diff_1lev.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\temp_diff_18lev.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\topo_15lev.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\wind_17lev.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/g2clib-1.6.0\rdieee.c">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/shapelib-1.3.0\safileio.c">
+      <Filter>shapelib-1.3.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/g2clib-1.6.0\seekgb.c">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/g2clib-1.6.0\simunpack.c">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/shapelib-1.3.0\shpopen.c">
+      <Filter>shapelib-1.3.0</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/color_tables\wgne15.cpp">
+      <Filter>color_tables</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/met-5.2_bugfix\src\libcode\vx_grid\st_grid.cc">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dbldateui.cpp">
+      <Filter>GeneratedFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dlgdatetime.cpp">
+      <Filter>GeneratedFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dlgiface.cpp">
+      <Filter>GeneratedFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dlgstartup.cpp">
+      <Filter>GeneratedFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_fcstui.cpp">
+      <Filter>GeneratedFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_graphicsvw.cpp">
+      <Filter>GeneratedFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_gribini.cpp">
+      <Filter>GeneratedFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_regui.cpp">
+      <Filter>GeneratedFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_tagtreeui.cpp">
+      <Filter>GeneratedFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_tvdelegate.cpp">
+      <Filter>GeneratedFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_winc.cpp">
+      <Filter>GeneratedFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_Resource.cpp">
+      <Filter>GeneratedFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="./src/grib1_ncep_2_7.h" />
+    <ClInclude Include="./src/grib2_all.h" />
+    <ClInclude Include="./src/griblatlon.h" />
+    <ClInclude Include="./src/hpa2gpt.h" />
+    <ClInclude Include="./src/infocntrs.h" />
+    <ClInclude Include="./src/map_qml.h" />
+    <ClInclude Include="./src/ne10m_places_sim.h" />
+    <ClInclude Include="./src/places.h" />
+    <ClInclude Include="./src/ramppal.h" />
+    <ClInclude Include="./src/gribitem.h" />
+    <ClInclude Include="./src/infodata.h" />
+    <ClInclude Include="./src/cntrs.h" />
+    <ClInclude Include="./src/color_tables.h" />
+    <ClInclude Include="./src/datefcst.h" />
+    <ClInclude Include="./src/defs.h" />
+    <ClInclude Include="./src/img.h" />
+    <ClInclude Include="./src/local_str.h" />
+    <ClInclude Include="./src/mgrb2.h" />
+    <ClInclude Include="./src/staticstr.h" />
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_math\affine.h">
+      <Filter>color_tables</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_math\angles.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\ascii_table.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\asciitablejust_to_string.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\check_endian.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\comma_string.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\command_line.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_log\concat_string.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_config\config.tab.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_config\config_constants.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_config\config_file.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_config\config_util.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\conversions.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_data2d\data_class.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_config\data_file_type.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\data_line.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\data_plane.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\data_plane_util.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_data2d_factory\data2d_factory.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_data2d_factory\data2d_factory_utils.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_data2d_grib\data2d_grib.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_data2d_grib\data2d_grib_utils.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_data2d_grib2\data2d_grib2.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_data2d\data2d_utils.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_config\dictionary.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\empty_string.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\file_exists.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\file_linecount.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\file_size.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\filename_suffix.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_grid\find_grid_by_name.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\fix_float.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_data2d_grib\grib_classes.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\grib_constants.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_data2d_grib\grib_strings.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_data2d_grib\grib_utils.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/g2clib-1.6.0\drstemplates.h">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\get_filenames.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_config\grdfiletype_to_string.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/g2clib-1.6.0\grib2.h">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_grid\grid_base.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/g2clib-1.6.0\gridtemplates.h">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_math\hist.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_log\indent.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\int_array.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\interp_mthd.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\interp_util.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_math\is_bad_data.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_data2d_factory\is_bufr_file.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_data2d_factory\is_grib_file.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\is_number.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_grid\latlon_grid.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_grid\latlon_grid_defs.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_grid\lc_grid.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_grid\lc_grid_defs.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_data2d\level_info.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_data2d\leveltype_to_string.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\long_array.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_math\math_constants.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_grid\merc_grid.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_grid\merc_grid_defs.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_math\nint.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_math\nti.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\num_array.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_math\ptile.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_math\pwl.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_log\string_array.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\string_fxns.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\substring.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_data2d\table_lookup.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\temp_file.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_data2d\var_info.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_data2d_grib\var_info_grib.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_data2d_grib2\var_info_grib2.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_cal\vx_cal.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_config\vx_config.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_data2d\vx_data2d.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_grid\vx_grid.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_log\vx_log.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_math\vx_math.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\vx_util.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/g2clib-1.6.0\pdstemplates.h">
+      <Filter>g2clib-1.6.0</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\ordinal.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\polyline.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_config\scanner_stuff.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/shapelib-1.3.0\shapefil.h">
+      <Filter>shapelib-1.3.0</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/shaperead.h">
+      <Filter>shapelib-1.3.0</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_grid\st_grid.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\libcode\vx_grid\st_grid_defs.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_util\util_constants.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_math\viewgravity_to_string.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\win32\unistd.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="./src/met-5.2_bugfix\src\basic\vx_math\trig.h">
+      <Filter>met-5.2_bugfix</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="./src/tvdelegate.h" />
+    <CustomBuild Include="./src/regui.h" />
+    <CustomBuild Include="./src/tagtreeui.h" />
+    <CustomBuild Include="./src/winc.h" />
+    <CustomBuild Include="./src/dlgdatetime.h" />
+    <CustomBuild Include="./src/dlgiface.h" />
+    <CustomBuild Include="./src/dlgstartup.h" />
+    <CustomBuild Include="./src/graphicsvw.h" />
+    <CustomBuild Include="./src/sets.h" />
+    <CustomBuild Include="./src/gribini.h" />
+    <CustomBuild Include="./src/dbldateui.h" />
+    <CustomBuild Include="./src/fcstui.h" />
+    <CustomBuild Include="./src/Resource.qrc">
+      <Filter>res</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="./src/color_tables\amwg.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\amwg_blueyellowred.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\BlueDarkOrange18.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\BlueDarkRed18.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\BlueGreen14.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\BrownBlue12.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\Cat12.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\cosam.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\cosam12.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\GreenMagenta16.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\hotcold_18lev.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\hotcolr_19lev.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\mch_default.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\nrl_sirkes.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\nrl_sirkes_nowhite.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\perc2_9lev.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\percent_11lev.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\posneg_1.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\posneg_2.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\prcp_1.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\prcp_2.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\prcp_3.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\precip_11lev.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\precip_diff_1lev.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\precip_diff_12lev.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\precip2_15lev.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\precip2_17lev.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\precip3_16lev.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\precip4_11lev.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\precip4_diff_19lev.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\radar.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\radar_1.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\rh_19lev.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\StepSeq25.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\sunshine_9lev.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\sunshine_diff_12lev.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\temp_19lev.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\temp_diff_1lev.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\temp_diff_18lev.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\topo_15lev.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\wind_17lev.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\wgne15.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="./src/color_tables\spread_15lev.bmp">
+      <Filter>color_tables</Filter>
+    </Image>
+    <Image Include="src\icons\add3.png">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\all_left.png">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\all_right.png">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\arrow.png">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\buttonminus.png">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\gfs_view_icon64.ico">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\gfs_view16.png">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\gfs_view20.ico">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\gfs_view32.png">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\globe.png">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\info_16.png">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\lc_helplinesvisible.png">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\load_by_date.png">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\load_wizard.png">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\one_left.png">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\one_right.png">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\open.png">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\rain.png">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\sc_deleteallannotation.png">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\sc_deleteallannotation_g.png">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\speedometer.png">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\temperature_warm.png">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\weather_rain.png">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\wheel.png">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\windy.png">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\zoom_fit.png">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\zoom_in.png">
+      <Filter>icons</Filter>
+    </Image>
+    <Image Include="src\icons\zoom_out.png">
+      <Filter>icons</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="met-5.2_bugfix">
+      <UniqueIdentifier>{30491423-029a-41b1-b27a-11340e0acf36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="color_tables">
+      <UniqueIdentifier>{868048c4-0c94-4f39-ad4d-903e27d76bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="g2clib-1.6.0">
+      <UniqueIdentifier>{f3eb0f14-0a01-441f-a176-edd51f59fca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="icons">
+      <UniqueIdentifier>{60f93efd-f480-4251-9e87-c9e25e0d9acd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shapelib-1.3.0">
+      <UniqueIdentifier>{383056e3-626a-4c99-aba3-1afed37f6290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{52665fb2-78b9-41c2-8d31-92f30b761475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GeneratedFiles">
+      <UniqueIdentifier>{027986fd-737a-4c28-a593-b613365763e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{745e9169-8d79-43ef-8c7d-f8123def0ce3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="./src/Resource.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
