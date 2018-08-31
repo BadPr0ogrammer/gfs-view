@@ -32,12 +32,13 @@ src/met-5.2_bugfix/src/libcode/vx_data2d_factory \
 src/met-5.2_bugfix/src/libcode/vx_data2d_grib2 \
 src/met-5.2_bugfix/src/libcode/vx_data2d_grib \
 src/met-5.2_bugfix/src/libcode/vx_grid \
-src/opencv/modules/core/include \
-src/opencv/modules/imgproc/include \
-src/opencv/3rdparty/libjasper \
-src/opencv/3rdparty/libjpeg \
-src/opencv/3rdparty/libpng \
-src/opencv/modules/highgui/include \
+../opencv-master/modules/core/include \
+../opencv-master/modules/imgproc/include \
+../opencv-master/modules/highgui/include \
+../opencv-master/3rdparty/libjpeg \
+../opencv-master/3rdparty/libpng \
+../opencv-master/3rdparty/libjasper
+
 
 SOURCES += \
 src/met-5.2_bugfix/src/basic/vx_config/config.tab.cc \
@@ -193,7 +194,7 @@ src/fcstui.cpp \
 src/regui.cpp \
 src/tagtreeui.cpp \
 src/infocntrs.cpp \
-src/ramppal.cpp 
+src/ramppal.cpp
 
 HEADERS += \
 src/cntrs.h \
@@ -335,13 +336,15 @@ src/met-5.2_bugfix/src/basic/vx_util/util_constants.h \
 src/met-5.2_bugfix/src/basic/vx_util/vx_util.h 
 
 LIBS += \
--lshp \
+-L/usr/local/lib \
+-L${PWD}/opencv-master/bin/3rdparty/lib \
+-llibjasper \
 -lopencv_core \
 -lopencv_imgproc \
 -lopencv_highgui \
--ljasper \
 -ljpeg \
 -lpng \
+-lshp \
 -rdynamic
 
 RESOURCES += \
