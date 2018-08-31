@@ -461,7 +461,7 @@ bool grib_data_c::make_rgb(bool& clear_pal, Mat **p_rgb)
     }
     tmp1 = new Mat(CANVAS_MAG * m_plane->ny() * m_dlatlon.m_delta, CANVAS_MAG * m_plane->nx() * m_dlatlon.m_delta, CV_64F);
 
-    cv::resize(*tmp2, *tmp1, tmp1->size(), 0, 0, CV_INTER_LINEAR);
+    cv::resize(*tmp2, *tmp1, tmp1->size(), 0, 0, cv::INTER_LINEAR);
 
     if (!VELOCITY_CODE(par.m_tag))
       tmp2->data = nullptr;
@@ -490,13 +490,13 @@ bool grib_data_c::make_rgb(bool& clear_pal, Mat **p_rgb)
 
   double thr = pal.val0() + pal.step();
   for (int i = 1; i < pal.num(); i++, thr += pal.step()) {
-    compare(*tmp1, thr, *mask, CV_CMP_GT);
+    compare(*tmp1, thr, *mask, cv::CMP_GT);
     if (gray)
       gray->setTo(i, *mask);
 
     if (!(i % sets->m_iso_step)) {
       vector<vector<Point>> *cont = new vector<vector<Point>>();
-      findContours(*mask, *cont, CV_RETR_LIST, CV_CHAIN_APPROX_SIMPLE);
+      findContours(*mask, *cont, cv::RETR_LIST, cv::CHAIN_APPROX_SIMPLE);
       m_isolns->push_back(cont);
       m_thr->push_back(!f_hpa ? thr : us * (pal.hpa1() - i * pal.hpas()));
     }

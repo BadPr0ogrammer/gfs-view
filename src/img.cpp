@@ -37,7 +37,7 @@ Mat* img_c::pal2rgb(uchar(*pal)[3], short sz, int scale)
       delete rgb;
       return nullptr;
     }
-    cv::resize(*rgb, *ret, Size(), 0, 0, CV_INTER_AREA);
+    cv::resize(*rgb, *ret, Size(), 0, 0, cv::INTER_AREA);
     delete rgb;
   }
   else
@@ -65,7 +65,7 @@ Mat* img_c::gray2rgb(double alpha)
     delete tmp;
     return nullptr;
   }
-  cvtColor(*tmp, *rgb, CV_GRAY2RGBA);
+  cvtColor(*tmp, *rgb, cv::COLOR_GRAY2RGBA);
   return rgb;
 }
 

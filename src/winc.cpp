@@ -593,6 +593,7 @@ void win_c::zoom_fit_clicked()
 bool win_c::update_canv(const tag_grib_c& next)
 {
   bool ret = false;
+  bool clear = false;
 
   grib_c *grib = m_data->get_grib(next.m_gr->datefc().run_str(), next.m_gr->datefc().fc_str());
   grib_data_c *grib_data = grib->grib_data_ptr(next.m_rtlv);
@@ -603,7 +604,6 @@ bool win_c::update_canv(const tag_grib_c& next)
     goto end;
   }
   wait_cursor(true);
-  bool clear = false;
   if (!grib_data || !grib_data->plane() || !grib_data->pixmap()) {
     if (!grib_data->make_grib(clear)) {
 #ifdef DEBUG
